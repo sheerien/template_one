@@ -1,0 +1,82 @@
+/* Indexing Css File */
+/* 
+    1- common styles
+    2- general style
+    3- sections styles
+        3-0 Header Section 
+        3-1 Home Section 
+        3-2 About Section 
+        3-3 Portfolio Section 
+        3-4 Services Section 
+        3-5 Prices Section 
+        3-6 Team Section 
+        3-7 Blog Page 
+        3-8 Contact Section 
+
+*/
+/* 1- common styles */
+
+    /* -container
+    -opacity hover
+    -section header
+    -section padding
+    -hover effect 1 (left to right)
+    -hover effect 2 (top to bottom)  
+    */
+
+/* 2- general style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Css 3*/
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* 3- sections styles */
+/* 3.0 header section */
+.header {
+    background: gray;
+}
+
+.header-content {
+    overflow: hidden; /*To Solve Float Problem*/
+}
+
+.header .logo {
+    width: 40%;
+    float: left;
+}
+
+.header .nav {
+    width: 60%;
+    list-style: none;
+    float: left;
+}
+
+.header .nav li {
+    display: inline-block;
+}
+
+.header .nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block; /* display block because inside li just one element */
+    padding: 30px 15px;
+}
+
+/* Home Section */
+/* About Section */
+/* Portfolio Section */
+/* Services Section */
+/* Prices Section */
+/* Team Section */
+/* Blog Page */
+/* Contact Section */
