@@ -5,40 +5,73 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Template One</title>
-    <!-- Fonts File -->
-    <link rel="stylesheet" type="text/css" href="fonts/varela/VarelaRound-Regular.ttf">
+    <!-- Fonts files Style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
     <!-- Css Files -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-<!-- header -->
+
+    <!-- header -->
     <div class="header">
         <div class="container">
             <div class="header-content">
                 <!-- logo -->
                 <div class="logo">
-                    <img src="images/logo.webp" alt="logo img" draggable="false">
-                </div> <!--/.logo-->
+                    <img src="images/logo-alt.webp" alt="logo img" draggable="false">
+                </div>
+                <!--/.logo-->
                 <!-- end logo -->
                 <!-- navbar -->
                 <ul class="nav">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Prices</a></li>
                     <li><a href="#">Team</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li class="dropdown">
+                        <a href="#">Blog</a>
+                        <ul  class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">blog post</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Contact</a></li>
-                </ul> <!--/.nav-->
+                </ul>
+                <div class="clear"></div>
+                <!--/.nav-->
                 <!-- end navbar -->
-            </div> <!--/.header-content-->
-        </div> <!--/.container-->
+            </div>
+            <!--/.header-content-->
+        </div>
+        <!--/.container-->
     </div>
-<!-- end header -->
+    <!-- end header -->
 
+    <!-- Home Section -->
+    <div class="home">
+        <div class="overlay">
+            <div class="home-content">
+                <h1 class="home-title">we are creative agency</h1>
+                <p class="home-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptatum at aspernatur
+                    eos ad perferendis.
+                    Error culpa exercitationem id similique consequatur.</p>
+                <button class="btn btn-start btn-hover-opacity">Get Start !</button>
+                <button class="btn btn-learn btn-hover-opacity">Learn More !</button>
+            </div>
+            <!--/.home-content-->
+        </div>
+        <!--/.overlay-->
+    </div>
+    <!--/.home-->
+    <!-- end home section -->
 
 </body>
 
