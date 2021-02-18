@@ -34,6 +34,28 @@
         left: 0;
         background-color: rgba(0, 0, 0, 0.7);
     }
+
+    .ltr-effect {
+        position: relative;
+    }
+
+    .ltr-effect::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #333;
+        z-index: -1;
+        transition:width 0.8s;
+
+    }
+
+    .ltr-effect:hover:after{
+        width: 100%;
+    }
 /* end common styles */
 
 /* ######################### General Styles ############################ */
@@ -45,17 +67,26 @@
     box-sizing: border-box; /*Css 3*/
 }
 
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
 .container {
     width: 80%;
     margin: auto;
 
 }
-body{
-    font-family: 'Varela Round', sans-serif;
-}
 
 .clear{
     clear: both; /* Solve Float Problem */
+}
+
+.pd-y {
+    padding: 120px 0;
+}
+
+.ma-b {
+    margin-bottom: 10px;
 }
 
 a {
@@ -80,6 +111,24 @@ button {
     opacity: 0.8;
 }
 
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-header .section-header-title {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.section-header .section-header-line {
+    display: block;
+    height: 5px;
+    width: 60px;
+    margin: 0 auto 70px auto; /*top right bottom left*/
+    background-color: #6195ff;
+}
 /* end general style */
 
 /* ######################### Sections ############################ */
@@ -246,6 +295,49 @@ button {
 /* ######################### About Section ############################ */
 
 /* About Section */
+
+.about {
+
+}
+
+.about-content {
+    overflow: hidden;
+}
+
+.about-item {
+    width: 30%; 
+    float: left;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    padding: 50px 20px;
+}
+
+.about-item:hover .about-item-title {
+    color: #fff;
+}
+.about-item.mg {
+    margin: 0 5%;
+}
+
+.about-item .icon {
+    color: #6195ff;
+}
+
+.about-item-title{
+    text-transform: capitalize;
+    transition: color 0.8s;
+}
+
+.about-item-desc {
+    line-height: 1.6;
+    color: #999;
+}
+
+.about-item-link {
+    color: #6195ff;
+    text-transform: capitalize;
+}
+
 /* Portfolio Section */
 /* Services Section */
 /* Prices Section */
