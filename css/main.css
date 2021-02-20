@@ -443,9 +443,9 @@ button {
     width: 100%;
 }
 
-/* ######################### Services [offer] Section ############################ */
+/* ######################### [offer] Section ############################ */
 
-/* Services [offer] Section */
+/*  [offer] Section */
 
 .offer-content {
     overflow: hidden;
@@ -486,6 +486,80 @@ button {
     margin-bottom: 15px;
     line-height: 1.6;
     color: #999;
+}
+
+/* ######################### Services Section ############################ */
+
+/* Services Section */
+
+.service {
+    background-color: #f9f9f9;
+}
+
+.service-item {
+    width: 50%;
+    float: left;
+}
+
+.service-item .section-header .section-header-title{
+    text-align: left;
+}
+
+.service-item .section-header .section-header-line{
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+.service-item-desc {
+    padding-right: 20px;
+    color: #999;
+    line-height: 1.5;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    list-style: none;
+}
+
+.service-list li {
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.service-list li i {
+    border: 1px solid #6195ff;
+    color: #6195ff;
+    width: 30px;
+    height: 30px;
+    padding: 7px 5px;
+    border-radius: 50%;
+}
+
+.service-item-img img{
+    width: 100%;
+}
+
+.service-bullets {
+    list-style: none;
+    text-align: center;
+}
+
+.service-bullets li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+
+.service-bullets li.active{
+    background-color: #6195ff;
+}
+
+.service-bullets li:hover {
+    background-color: #6195ff;
 }
 /* Prices Section */
 /* Team Section */
