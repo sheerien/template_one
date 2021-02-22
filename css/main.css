@@ -561,6 +561,46 @@ button {
 .service-bullets li:hover {
     background-color: #6195ff;
 }
+
+/* ######################### Numbers Section ############################ */
+
+/* Numbers Section */
+.numbers {
+    position: relative;
+    background-image: url("../images/background/background2.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+
+}
+
+.numbers-items {
+    overflow: hidden; 
+    padding: 100px 0;
+}
+
+.number-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.number-item .icon {
+    color: #6195ff;
+    margin-bottom: 15px;
+}
+
+.number-item-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.number-item-desc {
+    font-size: 19px;
+}
 /* Prices Section */
 /* Team Section */
 /* Blog Page */
